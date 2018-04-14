@@ -6,7 +6,7 @@ DATA SOURCE: https://files.pushshift.io/reddit/comments/
 
 * **PROS:** It is really **big big big** data set, including comments data from 2015.12 to nearly the present. They are separated by month.
 
-* **CONS:** It is really **big big big** data set. Closer to the present, bigger the dataset. For example,  comments of 2018.01 is about 8 Gb.
+* **CONS:** It is really **big big big** data set. Closer to the present, bigger the dataset. For example,  comments of 2018.01 is about 8 Gb.(8Gb is a .bz2 compressed file, actually times it with 6 :)
 
 * **USAGE:** 
 
@@ -48,7 +48,6 @@ DATA SOURCE: https://files.pushshift.io/reddit/comments/
   * Anything?
 
 
-
 ##2. Download using my crawler.
 
 DATA SOURCE: https://www.reddit.com/r/subreddit
@@ -63,7 +62,13 @@ DATA SOURCE: https://www.reddit.com/r/subreddit
 
 * **USAGE:**
 
-  1. Environment: Python3, requests, praw, pandas
+  1. Environment: 
+
+     1. Python3, requests, praw, pandas
+     2. Please fill out the Reddit APP id and secret first.
+        1. [Create a Reddit developed application](https://www.reddit.com/prefs/apps/) 
+        2. Fill out the constructor with your own id and secret.
+        3. Save and enjoy it.
 
   2. Start:
 
