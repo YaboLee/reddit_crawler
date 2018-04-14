@@ -35,7 +35,7 @@ DATA SOURCE: https://files.pushshift.io/reddit/comments/
 
 ​	
 
-* **NOTE: ** 
+* **NOTE:** 
   * The file could be big...Please make sure of your disk space. Anyway, recommend a server.
   * It will cost a long long time to download depending on your network. It may be a issue if it shutdown or sleep during the time. The **-c** parameter can help but I didn't try. If you download them on a server, recommend using **tmux**.
   * Anything?
