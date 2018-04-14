@@ -31,9 +31,16 @@ DATA SOURCE: https://files.pushshift.io/reddit/comments/
       wget -c -i download_links.txt
       ```
 
-   4. Waiting to update.
+   4. Extract:
 
-​	
+      Since most of the data files are .bz2, try
+
+      ```bash
+      bzip2 -d *.bz2  # this will delete the original file
+      bzip2 -dk *.bz2 # this will keep the original file
+      ```
+
+      *Note:* Due to the size, please remember to use tmux.
 
 * **NOTE:** 
   * The file could be big...Please make sure of your disk space. Anyway, recommend a server.
