@@ -12,28 +12,30 @@ DATA SOURCE: https://files.pushshift.io/reddit/comments/
 
    1. Environment:  Python3, requests, bs4
 
-  	2. Start:  
+     2. Start:  
 
       ```bash
       cd public_data_set
       python download.py 2005-12 2018-02
       ```
 
-      The arguments are starting month and ending month.
+      
+
+     The arguments are starting month and ending month.
 
       Up to the first commitment, there are dataset from 2015-12 to 2018-02. Therefore, date before or after the span will cause error. Please edit the function accordingly. 
 
       After the python script, there comes a *download_links.txt*, which contains all the links you need, from start to end.
 
-  	3. Download:
+     3. Download:
 
       ```bash
       wget -c i download_links.txt
       ```
 
-  	4. Extract:
+     4. Extract:
 
-      ​	Waiting to update.
+     	​	Waiting to update.
 
 * **NOTE: ** 
 
