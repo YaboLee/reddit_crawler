@@ -48,7 +48,7 @@ DATA SOURCE: https://files.pushshift.io/reddit/comments/
   * Anything?
 
 
-##2. Download using my crawler.
+## 2. Download using my crawler.
 
 DATA SOURCE: https://www.reddit.com/r/subreddit
 
