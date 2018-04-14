@@ -48,13 +48,13 @@ DATA SOURCE: https://www.reddit.com/r/subreddit
 
  * **PROS:** You can download whatever you want according to subreddit.
 
- * **CONS: **
+ * **CONS:**
 
     * The dataset is not big enough. The crawler parse the pages given by Reddit. Specifically, 25 pages, 25 submissions one page, at most.
     * This is an experimental version so there is no IP pool, distributed database, multi-thread function...In a word, it is not so fast...but it is enough if your need is not that big.
     * According to the rule of reddit API, there are limitations when accessing the website. Please check it before you use this.
 
-* **USAGE: **
+* **USAGE:**
 
   1. Environment: Python3, requests, praw, pandas
 
